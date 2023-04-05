@@ -51,7 +51,7 @@ export const Home = (): JSX.Element => {
               <Text color="grey4">Olá, me chamo {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            Desenvolvedor{" "}
+              Desenvolvedor{" "}
               <Text as="span" type="heading1" color="brand1">
                 FullStack
               </Text>{" "}
@@ -61,7 +61,8 @@ export const Home = (): JSX.Element => {
               </Text>{" "}
             </Text>
             <Text type="body1" color="grey2">
-              Nesta página, você irá conhecer e explorar todos os meus projetos e as tecnologias utilizadas
+              Nesta página, você irá conhecer e explorar todos os meus projetos
+              e as tecnologias utilizadas
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
@@ -114,12 +115,37 @@ export const Home = (): JSX.Element => {
           <AboutMeAreaWrapperColumns>
             <AboutMeAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                Colocar aqui minha biografia
+                Sobre Mim
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
+                {/* Some of my{" "} */}
+                Quando criança tive o meu primeiro contato com um video game. Os
+                olhos brilhavam de tanta alegria e a cabeça só pensava em como
+                toda essa mágica era feita.
                 <Text as="span" color="brand5">
-                  side projects
+                  {/* side projects */}
+                </Text>
+                <Text as="p" type="body1" color="grey2">
+                  Passei uma boa parte da minha infância tentando descobrir, até
+                  adquirir um computador onde começou as incansáveis busca para
+                  saber como tudo começou.
+                </Text>
+                <Text as="p" type="body1" color="grey2">
+                  Uma dessas buscas me levou até as linguagens de programação.
+                  Tentei aprender algumas linguagens sozinho sem muito sucesso.
+                  Após alguns anos me ingressei na faculdade de Engenharia de
+                  Software onde tive um maior aprendizado sobre lógica e algumas
+                  linguagens mas infelizmente, não pude concluir o curso por
+                  problemas pessoais.
+                </Text>
+                <Text as="p" type="body1" color="grey2">
+                  A pouco mais de 1 ano, tive a oportunidade de me ingressar na
+                  Kenzie Academy Brasil onde pude aprender várias tecnologias e
+                  me aprofundei no Desenvolvimento FullStack.
+                </Text>
+                <Text as="p" type="body1" color="grey2">
+                  Quer saber um pouco mais sobre mim? Acesse minhas redes
+                  sociais e vamos conversar.
                 </Text>
               </Text>
             </AboutMeAreaSocialMediaMessage>
