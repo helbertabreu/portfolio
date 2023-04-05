@@ -25,6 +25,10 @@ import {
   ProjectsAreaSocialMediaMessage,
   ProjectAreaWrapperColumns,
   ProjectsAreaContent,
+  AboutMeArea,
+  AboutMeAreaSocialMediaMessage,
+  AboutMeAreaWrapperColumns,
+  AboutMeAreaContent,
 } from "./style";
 
 export const Home = (): JSX.Element => {
@@ -107,6 +111,26 @@ export const Home = (): JSX.Element => {
           </ProjectAreaWrapperColumns>
         </Container>
       </ProjectsArea>
+      <AboutMeArea id="about-me">
+        <Container>
+          <AboutMeAreaWrapperColumns>
+            <AboutMeAreaSocialMediaMessage>
+              <Text as="h2" type="heading4" color="grey4">
+                Colocar aqui minha biografia
+              </Text>
+              <Text as="p" type="body1" color="grey2">
+                Some of my{" "}
+                <Text as="span" color="brand5">
+                  side projects
+                </Text>
+              </Text>
+            </AboutMeAreaSocialMediaMessage>
+            {/* <AboutMeAreaContent>
+              <AboutMe />
+            </AboutMeAreaContent> */}
+          </AboutMeAreaWrapperColumns>
+        </Container>
+      </AboutMeArea>
       <Contacts />
     </main>
   );

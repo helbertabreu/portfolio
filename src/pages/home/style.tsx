@@ -144,3 +144,47 @@ export const ProjectAreaWrapperColumns = styled("div", {
     flexDirection: "column",
   },
 });
+
+export const AboutMeArea = styled("section", {
+  padding: "$section 0",
+  backgroundColor: "$grey0",
+  backgroundImage: `url(${dots})`,
+  backgroundRepeat: "no-repeat",
+  backgroundPosition: "left top 11rem",
+  "@tablet": {
+    backgroundPosition: "right top 8rem",
+    padding: "$sectionMobile 0",
+  },
+});
+
+export const AboutMeAreaSocialMediaMessage = styled("div", {
+  display: "flex",
+  flexDirection: "column",
+  gap: "2rem",
+
+  "@mobile": {
+    width: "100%",
+    position: "static",
+    order: "2",
+    marginTop: "5rem",
+  },
+});
+
+export const AboutMeAreaContent = styled("div", {
+  width: "100%",
+  display: "grid",
+  gridTemplateColumns: "repeat(2, 1fr)",
+  gridGap: "4rem",
+  "@mobile": {
+    gridTemplateColumns: "1fr",
+    overflow: "hidden",
+  },
+});
+
+export const AboutMeAreaWrapperColumns = styled("div", {
+  position: "relative",
+  alignItems: "flex-start",
+  "@mobile": {
+    flexDirection: "column",
+  },
+});
