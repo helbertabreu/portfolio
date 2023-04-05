@@ -8,6 +8,7 @@ import {
   FaJs,
   FaNode,
   FaReact,
+  FaGithub,
 } from "react-icons/fa";
 
 export const stackData = [
@@ -36,5 +37,6 @@ export const stackData = [
   { title: "Docker", img: FaDocker },
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "Git", img: FaGit },
+  { title:"GitHub", img: FaGithub },
   { title: "Python", img: FaPython },
 ];
